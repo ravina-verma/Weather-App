@@ -9,7 +9,8 @@ const forcast=(x,y,callback)=>{
        else{
            callback(undefined,{
                forcast:body.current.weather_descriptions[0],
-               temperature:body.current.temperature
+               temperature:body.current.temperature,
+                humidity:body.current.humidity
            })
        }
            

@@ -61,6 +61,7 @@ app.get('/weather',(req,res)=>{
            Temperature: forcastdata.temperature,
            forcast:forcastdata.forcast,
             location: location,
+            humidity:forcastdata.humidity
            //address:req.query.address
        })
     })
